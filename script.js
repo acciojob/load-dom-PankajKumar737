@@ -5,6 +5,7 @@
 // p.appendChild(node);
 // document.body.appendChild(p);
 
+const log = document.querySelector("body");
 document.addEventListener("DOMContentLoaded", (event) => {
-log.textContent += `DOMContentLoaded\n`;
+log.innerText = "DOM load success";
 });
